@@ -1,0 +1,60 @@
+.hero__container {
+  padding: 0 600px 0 0;
+  background: linear-gradient(#fbdc8e41, #fb958e2a);
+}
+
+.hero {
+  width: 100%;
+  background: url("../../assets/img/hero.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 250px;
+}
+
+
+.hero__info h1 {
+  text-align: left;
+  color: #F05745;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.hero__info span {
+  color: #000000;
+}
+
+.hero__info p {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.hero__info button {
+  cursor: pointer;
+}
+
+.hero__info .btn__primary {
+  background: #F05745;
+  color: #FEF6E4;
+  padding: 20px 40px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+  border-radius: 10px;
+}
+
+
+.hero .btn__secondary {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  border: 2px solid #F05745;
+  border-radius: 10px;
+  background: transparent;
+  margin: 12px;
+}
+
+
+

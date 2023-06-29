@@ -1,0 +1,13 @@
+<app-form/>
+<section class="container__mercancias">
+  <section class="container__card" *ngFor="let mercancia of mercancias">
+    <section class="card">
+        <p> <span>Nombre: </span> {{mercancia.nombre}} </p>
+        <p> <span>Descripcion:</span>{{mercancia.descripcion}} </p>
+        <p> <span>Volumen: </span>{{mercancia.volumen}} </p>
+        <p> <span>id zona: </span>{{mercancia.zona.id}} </p>
+        <p> <span>Espacio total: </span>{{mercancia.zona.espacioTotal}} </p>
+        <p> <span>Espacio parcial: </span>{{mercancia.zona.espacioParcial}} </p>
+    </section>
+  </section>
+</section>

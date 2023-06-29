@@ -1,0 +1,129 @@
+
+.servicios {
+  padding: 120px 0 210px;
+  width: 100%;
+   background: linear-gradient( #fb958e2a,#fbdc8e41);
+}
+
+.servicios .fila__servicios {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.servicios .info__servicios {
+  width: 50%;
+}
+
+.servicios .info__servicios h3 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.servicios .info__servicios h3 b {
+  color: #f05645b3;
+
+}
+
+.servicios .info__servicios p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+
+
+.servicios .container__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  margin-top: 100px;
+  gap: 70px;
+}
+
+.servicios .container__cards .card {
+  width: 450px;
+  padding: 50px;
+  box-shadow: 0px 4px 20px -5px #363535;
+  border-radius: 0 10px 10px 0;
+  border-left: 10px solid #f05645b3;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+.servicios .container__cards .card:hover {
+  border-left: transparent;
+  transition: 1s ease-in-out;
+  transform: scale(1.1);
+}
+
+
+
+.servicios .container__cards .card::after {
+  width: 0;
+  height: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0 10px 10px 0;
+  background:#f056459d;
+  z-index: 1;
+  transition: 1.2s;
+
+}
+
+
+.servicios .container__cards .card:hover::after {
+  width: 100%;
+}
+
+.servicios .container__cards .card__icon {
+  height: 60px;
+  width: 60px;
+  font-size: 60px;
+}
+
+
+.servicios .container__cards .card:hover h4 {
+  color: #FEF6E4;
+}
+
+.servicios .container__cards .card img {
+  width: 60px;
+  z-index: 9;
+  position: relative;
+}
+
+.servicios .container__cards .card h4 {
+  font-size: 25px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  z-index: 9;
+  position: relative;
+  transition: .4s;
+  color: #f05645;
+}
+
+.servicios .container__cards .card p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  z-index: 9;
+  position: relative;
+  transition: .4s;
+}
+
+.servicios .container__cards .card ul {
+  padding-left: 20px;
+  margin-top: 14px;
+}
+
+.servicios .container__cards .card ul li {
+  margin: 10px 0;
+  font-weight: 400;
+  z-index: 9;
+  position: relative;
+  transition: .4s;
+}

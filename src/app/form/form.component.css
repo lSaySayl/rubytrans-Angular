@@ -1,0 +1,85 @@
+.container__principal {
+  display: flex;
+  background-color: #f05645;
+
+}
+
+.container__imagen {
+  width: 50%;
+  background: url("../../assets/img/heroDos.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+.container__form-interno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 700px;
+  background-color: #fef6e4;
+  border-radius: 20px;
+  box-shadow: 30px 40px 20px -5px #0000005a;
+
+}
+
+.container__form-interno:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 30px 40px 20px -5px #000000b1;
+
+}
+
+
+.container__input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.container__input .form__label {
+  font-weight: 600;
+  color: #F05645;
+}
+
+.container__input .input__entrada {
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid #00000076;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.container__btn {
+  display: flex;
+  justify-content: center;
+}
+
+.container__btn .btn__registrar {
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #F05645;
+  color:#fef6e4 ;
+  margin-top: 25px;
+}
+
+.container__btn .btn__registrar:hover {
+  cursor: pointer;
+  transition: 0.3s ease;
+  transform: scale(1.1);
+}

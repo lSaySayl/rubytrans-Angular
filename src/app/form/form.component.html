@@ -1,0 +1,50 @@
+<section class="container__principal">
+  <section class="container__imagen">
+  </section>
+
+  <section class="container__form">
+    <section class="container__texto">
+      <section class="container__form-interno">
+        <form [formGroup]="formulario">
+          <section class="container__input">
+            <label class="form__label">Nombre: </label>
+            <input type="text" class="input__entrada" formControlName="nombre" />
+          </section>
+          <section class="container__input">
+            <label class="form__label">Descripción: </label>
+            <input
+              type="text"
+              class="input__entrada"
+              formControlName="descripcion"
+            />
+          </section>
+          <section class="container__input">
+            <label class="form__label">Fecha: </label>
+            <input type="text" class="input__entrada" formControlName="fecha" />
+          </section>
+
+          <section class="container__input">
+            <label class="form__label">Motivo de Devolución: </label>
+            <input
+              type="text"
+              class="input__entrada"
+              formControlName="motivoDevolucion"
+            />
+          </section>
+          <section class="container__input">
+            <label class="form__label">Volumen: </label>
+            <input type="text" class="input__entrada" formControlName="volumen" />
+          </section>
+          <section class="container__input">
+            <label class="form__label">Zona: </label>
+            <input type="text" class="input__entrada" formControlName="zona" />
+          </section>
+          <section class="container__btn">
+            <button type="submit" class="btn__registrar">Registrar</button>
+          </section>
+        </form>
+      </section>
+    </section>
+  </section>
+
+</section>
